@@ -48,6 +48,11 @@ mod tests {
     use super::*;
 
     #[test]
+    fn test_problem_4_9009() {
+        assert_eq!(problem_4(2), 9009);
+    }
+
+    #[test]
     fn test_all_nines_2() {
         assert_eq!(all_nines(2), 99);
     }
@@ -55,10 +60,6 @@ mod tests {
     #[test]
     fn test_all_nines_5() {
         assert_eq!(all_nines(5), 99999);
-    }
-    #[test]
-    fn test_problem_4_9009() {
-        assert_eq!(problem_4(2), 9009);
     }
 
     #[test]

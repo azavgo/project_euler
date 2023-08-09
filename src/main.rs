@@ -8,5 +8,5 @@ fn main() {
     println!("Problem 2 answer: {}", problem_2::problem_2(4000000));
     println!("Problem 3 answer: {}", problem_3::problem_3(600851475143));
     //In progress
-    println!("Problem 4 answer: {}", problem_4::problem_4(3));
+    //println!("Problem 4 answer: {}", problem_4::problem_4(3));
 }
